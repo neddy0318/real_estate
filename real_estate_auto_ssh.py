@@ -15,8 +15,6 @@ import requests
 from google.oauth2 import service_account
 import pandas_gbq
 
-!apt-get install google-cloud-sdk
-
 start = time.time()
 
 #빅쿼리 연결 설정
